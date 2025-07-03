@@ -124,7 +124,6 @@ harness = false
 # for a particular embedding.
 [features]
 default = [
-  'async',
   'cache',
   'gc',
   'gc-drc',
@@ -140,8 +139,6 @@ default = [
   'debug-builtins',
   'runtime',
   'component-model',
-  'threads',
-  'stack-switching',
   'std',
 ]
 
